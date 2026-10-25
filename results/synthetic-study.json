@@ -1,0 +1,41 @@
+{
+  "checkpoint_canonical_bytes": {
+    "maximum": 1003,
+    "mean": "479511/512",
+    "minimum": 729
+  },
+  "checksum_limitation": {
+    "altered_state_with_recomputed_digest_is_accepted": true
+  },
+  "counts": {
+    "changed_reader_checksum_rejected": 512,
+    "changed_reference_checksum_rejected": 512,
+    "changed_values_checksum_rejected": 512,
+    "checkpoint_exact": 512,
+    "inverse_exact": 512,
+    "known_initial_journal_exact": 512,
+    "oracle_primitive_cases": 3402,
+    "oracle_trace_steps": 20480,
+    "primitive_inverse_exact": 3402,
+    "reversed_order_different": 511,
+    "reversed_order_same": 1,
+    "shuffled_order_different": 512,
+    "shuffled_order_same": 0,
+    "truncated_different": 512,
+    "truncated_same": 0
+  },
+  "dataset": "synthetic-ternary-v1",
+  "history_collision": {
+    "distinct_commuting_journals_same_endpoint": true
+  },
+  "interpretation": "All results concern deterministic exact-state software on new synthetic data. No LLM, compression advantage, physical system or authentication mechanism was evaluated.",
+  "journal_stream_sha256": "15029ed3b7f2107fef066fa644150f9e5cce0506fe33667fc0f688822759f63b",
+  "model_id": "eabc89f33f39cfc8e7ef447588caf2fd04027b2bc7fae6876766dd4e0a12ea89",
+  "observation_collision": {
+    "different_state": true,
+    "same_observation": true,
+    "shift_S_distinguishes": true
+  },
+  "registration_sha256": "bc1fb9a71f2f4f1b3b36ca7769e63cece8f93b7f536971e6643e223d3dce8f53",
+  "status": "PASS"
+}

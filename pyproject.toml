@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "crossroads-state"
+version = "0.1.0"
+description = "Exact rational state, partial observation and reversible recovery: a synthetic test environment"
+requires-python = ">=3.10"
+authors = [{name = "TASUMER MAF"}]
+dependencies = []
+readme = "README.md"
+
+[project.scripts]
+crossroads-state = "crossroads_state.__main__:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

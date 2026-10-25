@@ -1,0 +1,102 @@
+{
+  "status": "RELEASE_CANDIDATE",
+  "remote_published": false,
+  "license_selected": false,
+  "files": [
+    {
+      "path": ".github/workflows/test.yml",
+      "bytes": 579,
+      "sha256": "572bd0a4b93523c14827695758cee8a2c9fb88c9ec69f343aa4c92c969b163bd"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 65,
+      "sha256": "70e58bbb2b106dd9f7edf266f9a1b34655e544795b8d36a8f083f74fa16aae1e"
+    },
+    {
+      "path": "LICENSE-DECISION.md",
+      "bytes": 668,
+      "sha256": "91aca37ce0ef0ab7550cace36c2b852f724a8614879b3bdfa1afea544e927412"
+    },
+    {
+      "path": "PRIVACY.md",
+      "bytes": 1885,
+      "sha256": "f2c32debe4b6a3e6462146c6776977fa98fc281949406c47a0ea19dac514caac"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5938,
+      "sha256": "b760e87acef6d884df529233c50b9e788750b017ae02dec0da0e65c1e9d63846"
+    },
+    {
+      "path": "examples/journal.json",
+      "bytes": 63,
+      "sha256": "0963627253e57e2a31abbccf381fa4b32506dd7b8687d5b694007b047e372268"
+    },
+    {
+      "path": "paper/exact-state-recovery.pdf",
+      "bytes": 18196,
+      "sha256": "92793dc06353d95e101100bef58e3c618e7beff767840c5f000499cbd05cb6e4"
+    },
+    {
+      "path": "paper/methods.md",
+      "bytes": 15220,
+      "sha256": "0dd86dfab154d2cdd829af4a217d2842a21037ef5cd4a2eacf5166923cb63238"
+    },
+    {
+      "path": "pyproject.toml",
+      "bytes": 473,
+      "sha256": "5f753491525eca48ab3527dba0b669b46160c6d91dc6ba76d7b209a636d19718"
+    },
+    {
+      "path": "registration.json",
+      "bytes": 1764,
+      "sha256": "55ca64a3abb85ebb03607b0a95606f9e87583044d373906b60ad98f90072995c"
+    },
+    {
+      "path": "results/synthetic-study.json",
+      "bytes": 1478,
+      "sha256": "5f3642e268a9e6866b41b4d4dd537c00c0341c63debc1dfb210598fe7b34042a"
+    },
+    {
+      "path": "scripts/build_paper.py",
+      "bytes": 7073,
+      "sha256": "fb7968931dc28e86ae8ea30732392eb15f0d4c5891b39fb34a348e34ab599fe4"
+    },
+    {
+      "path": "scripts/reproduce.py",
+      "bytes": 6323,
+      "sha256": "eeda2556dcf2f59f1b1d3328c464c08c54fc7d22dcc516f0ce8767c78ebe1e3f"
+    },
+    {
+      "path": "src/crossroads_state/__init__.py",
+      "bytes": 246,
+      "sha256": "58eb719e76b310e207d84ae31f2430a227884cd9bf4f33ba9570f753b4ad3763"
+    },
+    {
+      "path": "src/crossroads_state/__main__.py",
+      "bytes": 2175,
+      "sha256": "10f63f97240ae7c71b4b846b5ef92a0b4cd385c85263fb0a26c32efa85616613"
+    },
+    {
+      "path": "src/crossroads_state/core.py",
+      "bytes": 8925,
+      "sha256": "7dab968d29b08dbe51fb353c5e79856f1dbb22a1229c0ffcd05552143fec8cc7"
+    },
+    {
+      "path": "src/crossroads_state/synthetic.py",
+      "bytes": 2520,
+      "sha256": "f0c7f0199f3a24c269c8a51f4701f0280e38d8420dd0a9569a61acae0ad99ee4"
+    },
+    {
+      "path": "tests/oracle.py",
+      "bytes": 2101,
+      "sha256": "e317433efd99aafac316e6af5ba1e978d011edcdbaeb934802b58e6ffc245705"
+    },
+    {
+      "path": "tests/test_core.py",
+      "bytes": 5997,
+      "sha256": "65b53c1739dd1389cfed47f0a3216eeb96c4b1fe4a89220f9fdb98bdc1d1195c"
+    }
+  ]
+}

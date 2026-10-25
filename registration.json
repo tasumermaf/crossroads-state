@@ -1,0 +1,30 @@
+{
+  "schema": "crossroads-state.synthetic-study.v1",
+  "status_at_creation": "registered before implementation was executed",
+  "date": "2026-10-25",
+  "scope": "New synthetic fixtures only; no historical or private source arrays/readers",
+  "seed": 20261025,
+  "trials": 512,
+  "trace_length": 40,
+  "initial_fixtures": 16,
+  "operators": ["A", "B", "M", "R", "U", "S"],
+  "counts": [-2, -1, 1, 2],
+  "primitive_counts": [-3, -2, -1, 0, 1, 2, 3],
+  "primitive_references": "all 81 ternary addresses",
+  "primary_requirements": [
+    "Typed checkpoint JSON roundtrip restores the entire array, ordered reader and reference for every trial",
+    "Known initial state plus full ordered journal reproduces every final state",
+    "Reversed journal with negated counts restores every initial state",
+    "Independent coordinate-dictionary oracle agrees on every trace step and primitive/reference/count case",
+    "Mutated array, reader and reference fail checksum validation without digest recomputation",
+    "Synthetic equal-observation/different-state example is retained and later distinguished by a declared reader shift"
+  ],
+  "descriptive_controls": [
+    "Journal truncation: report differences and accidental agreements rather than require all corruptions to differ",
+    "Reversed journal order: report differences and accidental agreements",
+    "Independent shuffled order: report differences and accidental agreements",
+    "Recomputed digest on changed state: accepted as a well-formed different state, demonstrating lack of authenticity",
+    "Distinct commuting journals may have the same endpoint"
+  ],
+  "exclusions": ["LLM inference", "compression comparison", "physical claims", "security authentication", "speed superiority", "novelty claim"]
+}
