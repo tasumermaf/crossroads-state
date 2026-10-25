@@ -135,7 +135,8 @@ def build():
                             rightMargin=0.86*inch, leftMargin=0.86*inch,
                             topMargin=0.66*inch, bottomMargin=1.05*inch,
                             title="Exact State, Partial Observation, and Reversible Recovery",
-                            author="TASUMER MAF", subject="Synthetic exact-state methods and reproducibility")
+                            author="TASUMER MAF",
+                            subject="Synthetic exact-state methods and reproducibility; TASUMER MAF Research and Enterprise License 1.0")
     doc.build(story, onFirstPage=footer, onLaterPages=footer)
     print(target.name)
 

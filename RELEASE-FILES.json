@@ -3,7 +3,7 @@
   "remote_visibility": "private",
   "remote_url": "https://github.com/tasumermaf/crossroads-state",
   "public_release_published": false,
-  "license_selected": false,
+  "license_selected": true,
   "files": [
     {
       "path": ".github/workflows/test.yml",
@@ -16,9 +16,19 @@
       "sha256": "70e58bbb2b106dd9f7edf266f9a1b34655e544795b8d36a8f083f74fa16aae1e"
     },
     {
+      "path": "LICENSE",
+      "bytes": 7658,
+      "sha256": "74667be3fc1d2907f797f9821fd8669e63d8d8fec33956a1279a446ded3cec7e"
+    },
+    {
       "path": "LICENSE-DECISION.md",
-      "bytes": 668,
-      "sha256": "91aca37ce0ef0ab7550cace36c2b852f724a8614879b3bdfa1afea544e927412"
+      "bytes": 688,
+      "sha256": "05d6d7c1b0622b3515522927f7ffb2d24e9135e861d51a84aa1d7af22246b72b"
+    },
+    {
+      "path": "LICENSING.md",
+      "bytes": 2134,
+      "sha256": "95799cf6e3f6f086f29d1f3c73e0f68c4221efe62c66e49bd3ba39585416074a"
     },
     {
       "path": "PRIVACY.md",
@@ -27,8 +37,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 8766,
-      "sha256": "a6c4160960fe8a80cd6b85b6dddf62fe0e8263a3b5601076ecf77519d813f697"
+      "bytes": 9871,
+      "sha256": "93eb11d16e2971451d2154bd75d1efeb8f698586529a07f60fc5749b86c5e2f0"
     },
     {
       "path": "assets/README.md",
@@ -67,18 +77,18 @@
     },
     {
       "path": "paper/exact-state-recovery.pdf",
-      "bytes": 18196,
-      "sha256": "92793dc06353d95e101100bef58e3c618e7beff767840c5f000499cbd05cb6e4"
+      "bytes": 18349,
+      "sha256": "cd3c99608c957f3c65381a508afbb5d1e84a60042d932ec1197e8e4055ce26e0"
     },
     {
       "path": "paper/methods.md",
-      "bytes": 15220,
-      "sha256": "0dd86dfab154d2cdd829af4a217d2842a21037ef5cd4a2eacf5166923cb63238"
+      "bytes": 15382,
+      "sha256": "ce20ef76e17b3f595cdc95d857a7cf432577c0682d516c2f8187ca9742c14f43"
     },
     {
       "path": "pyproject.toml",
-      "bytes": 473,
-      "sha256": "5f753491525eca48ab3527dba0b669b46160c6d91dc6ba76d7b209a636d19718"
+      "bytes": 502,
+      "sha256": "9eb8fb9195fdd41685e406e403c3703fe698f1ce3352bdcd8b147cd3b92bb605"
     },
     {
       "path": "registration.json",
@@ -97,8 +107,8 @@
     },
     {
       "path": "scripts/build_paper.py",
-      "bytes": 7073,
-      "sha256": "fb7968931dc28e86ae8ea30732392eb15f0d4c5891b39fb34a348e34ab599fe4"
+      "bytes": 7150,
+      "sha256": "cc6474f47fca492bc47ccf0ad3a5489e4cf9d8853bb39724afca5f0935787ad7"
     },
     {
       "path": "scripts/reproduce.py",
@@ -135,5 +145,6 @@
       "bytes": 5997,
       "sha256": "65b53c1739dd1389cfed47f0a3216eeb96c4b1fe4a89220f9fdb98bdc1d1195c"
     }
-  ]
+  ],
+  "license_identifier": "LicenseRef-TASUMER-MAF-Research-Enterprise-1.0"
 }

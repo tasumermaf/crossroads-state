@@ -1,13 +1,14 @@
-# License decision pending
+# License selected
 
-This is a release candidate prepared for TASUMER MAF review. The owner has not
-yet selected licenses for the code, paper and figures. No permissive or
-open-source license is implied by the preparation of this package.
+The earlier pending-license notice is superseded by the
+[TASUMER MAF Research and Enterprise License 1.0](LICENSE), selected by the owner
+on 25 October 2026. It covers the original code, paper, figures and interface
+assets explicitly distributed under that license.
 
-Before public release, the owner should select the intended code license and
-the intended publication/figure license, supply the exact copyright attribution,
-and replace this notice with the chosen terms. Package metadata and the paper
-should then be updated consistently.
+Noncommercial research is free under its terms. Every enterprise use, including
+internal research and evaluation, requires separate written permission and
+payment. See [LICENSING.md](LICENSING.md) for the plain-language guide; the full
+license governs.
 
 No third-party source paper or other copyrighted reference has been bundled.
 Bibliographic citations and links do not grant rights to those works.

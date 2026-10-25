@@ -1,0 +1,142 @@
+TASUMER MAF Research and Enterprise License 1.0
+SPDX-License-Identifier: LicenseRef-TASUMER-MAF-Research-Enterprise-1.0
+
+Copyright (c) 2026 Timothy Paul Bielec / TASUMER MAF.
+
+1. MATERIAL AND LICENSOR
+
+The "Material" is the software, documentation, papers, original figures,
+interface assets, and other original material explicitly distributed under
+this license. The "Licensor" is Timothy Paul Bielec, publishing as TASUMER MAF,
+to the extent that he owns or is authorized to license the relevant rights.
+Separately identified third-party material remains under its own terms.
+
+2. FREE NONCOMMERCIAL RESEARCH GRANT
+
+Subject to the conditions below, the Licensor grants you a worldwide,
+nonexclusive, royalty-free copyright license to inspect, run, reproduce,
+modify, and share the Material for personal study, teaching, experimentation,
+and noncommercial research, including reproduction of published experiments
+and publication of research findings. You may share permitted modifications
+and adaptations under this same license. This grant continues while you
+comply with these terms; a later release does not withdraw the grant for a
+version you already received.
+
+The free grant is available to individuals acting in a personal capacity and
+to nonprofit educational or public research institutions for these purposes.
+It excludes every Enterprise Use and Commercial Use defined below. Calling
+an activity "research", "evaluation", "internal", "experimental", "pilot",
+"proof of concept", or "non-production" does not create an exception.
+
+3. ENTERPRISE USE AND COMMERCIAL USE
+
+"Enterprise" means a for-profit business or organization of any size,
+including a company, partnership, sole proprietorship, startup, affiliate,
+or other entity carrying on business for commercial advantage.
+
+"Enterprise Use" means use of the Material by an Enterprise, or work using
+the Material on behalf of, at the direction of, under contract to, or for the
+business benefit of an Enterprise. This includes internal research,
+benchmarking, evaluation, employee or contractor work, development, testing,
+training, integration, deployment, and production. No revenue, distribution,
+external customer, minimum company size, or production launch is required.
+
+An individual employed by an Enterprise may use the free grant for genuinely
+personal, independent noncommercial research that is not work for or for the
+business benefit of that Enterprise. Employment alone does not prohibit
+personal study. Enterprise-directed or enterprise-sponsored work is not
+personal study merely because it is performed outside normal working hours.
+
+"Commercial Use" means use of the Material in connection with a product,
+service, paid application, consulting engagement, commercial offering, or
+other activity undertaken for commercial advantage or monetary compensation,
+whether conducted by an Enterprise, an individual, or a nonprofit entity.
+An ordinary salary, student stipend, or public or nonprofit research grant
+does not by itself make otherwise eligible noncommercial teaching or academic
+research Commercial Use. This clarification does not exempt any Enterprise
+Use, including enterprise-sponsored or enterprise-directed work.
+Research funded or commissioned for an Enterprise's business purposes is
+Enterprise Use even when an academic institution performs it.
+
+4. SEPARATE WRITTEN PERMISSION AND PAYMENT
+
+This license grants no Enterprise Use or Commercial Use rights. Before such
+use begins, you must obtain a separate written license executed by the
+Licensor and pay the licensing fees required by that agreement according to
+its payment terms. Its permitted scope, duration, fees, and any other terms
+must be agreed separately; this document sets no price or automatic tariff.
+
+Public availability, possession of the source code, a fork, a contribution,
+an acknowledgment, a donation, or payment without a separate written license
+does not grant Enterprise Use or Commercial Use permission. Contact the
+verified TASUMER MAF maintainers through https://github.com/tasumermaf or the
+official site https://tasumermaf.com/ to request a license.
+
+5. SHARING, ATTRIBUTION, AND MODIFICATIONS
+
+Every copy or substantial portion you distribute must retain this license,
+the applicable copyright and attribution notices, and notices identifying
+third-party material. Identify material changes and do not present a modified
+version as an unmodified TASUMER MAF release or as endorsed by the Licensor.
+
+You may distribute the Material and derivative adaptations only for the
+purposes granted in section 2 and under these same terms. You may not grant
+recipients broader rights to the Licensor's Material. Each recipient receives
+the research license directly from the Licensor and must obtain their own
+separate written license for Enterprise Use or Commercial Use.
+
+This condition does not transfer ownership of your original contributions or
+require unrelated, independently authored material to use this license.
+
+6. PUBLISHED RESULTS, FACTS, AND INDEPENDENT WORK
+
+You may publish and cite results of permitted research, including criticism,
+comparisons, and negative findings. Retain applicable attribution when copying
+or adapting protected expression from the Material. You are not required to
+assign your research findings to the Licensor.
+
+This license does not claim copyright in mathematical facts, ideas, methods,
+algorithms, or other subject matter that applicable law leaves unprotected.
+It does not restrict independent work that uses no rights reserved to the
+Licensor, nor limit fair use, fair dealing, or other statutory rights.
+
+7. THIRD-PARTY MATERIAL AND OTHER RIGHTS
+
+Third-party components, fonts, references, and other separately licensed works
+are governed by their own applicable licenses. This license neither replaces
+those licenses nor grants rights the Licensor does not possess. Inclusion of
+a citation or link is not a license to the cited work.
+
+No trademark, endorsement, patent, confidential-source, or reserved-corpus
+license is granted or implied. No rights to material omitted from a public
+release are granted by this license. Rights not expressly granted are reserved.
+
+8. ACCEPTANCE AND TERMINATION
+
+If you exercise rights granted by this license, you accept its conditions.
+If you do not accept them, do not exercise those rights. Your independent
+statutory rights are unaffected.
+
+A material breach terminates the rights granted by this license. You must
+stop the unlicensed activity. Reinstatement requires written permission from
+the Licensor; termination does not remove obligations or liability arising
+from earlier unauthorized use. Recipients who independently comply with this
+license do not lose their licenses solely because you breach yours.
+
+9. NO WARRANTY; LIMITATION OF LIABILITY
+
+TO THE EXTENT PERMITTED BY APPLICABLE LAW, THE MATERIAL IS PROVIDED "AS IS",
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, OR NONINFRINGEMENT.
+THE LICENSOR IS NOT LIABLE FOR CLAIMS, DAMAGES, OR OTHER LIABILITY ARISING
+FROM THE MATERIAL OR ITS USE, WHETHER IN CONTRACT, TORT, OR OTHERWISE.
+
+Nothing here excludes a liability or protection that cannot lawfully be
+excluded. If a provision cannot be enforced, the remaining provisions continue
+to the extent permitted by applicable law.
+
+10. RESEARCH-AVAILABLE, NOT UNRESTRICTED OPEN SOURCE
+
+This is a source-available research license with reserved enterprise and
+commercial rights. It is not an OSI-approved open-source license. A separate
+executed enterprise agreement governs the uses it expressly authorizes.

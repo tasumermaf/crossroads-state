@@ -4,8 +4,10 @@
 
 TASUMER MAF | Technical report 0.1.0 | 25 October 2026
 
-Release candidate. This is a methods and software report, not an externally
-peer-reviewed paper. Publication licensing remains an owner decision.
+Release candidate; not externally peer-reviewed. Licensed under the TASUMER MAF
+Research and Enterprise License 1.0. Noncommercial research is free under its
+terms; any enterprise work, including internal research and evaluation,
+requires separate written permission and payment. See the repository LICENSE.
 
 ## Abstract
 

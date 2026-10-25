@@ -3,7 +3,7 @@
 [![Exact-state checks](https://github.com/tasumermaf/crossroads-state/actions/workflows/test.yml/badge.svg)](https://github.com/tasumermaf/crossroads-state/actions/workflows/test.yml)
 [![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-73DAB1?style=flat-square&labelColor=211A30)](pyproject.toml)
 [![Release candidate 0.1.0](https://img.shields.io/badge/Research-release_candidate_0.1.0-AC88E2?style=flat-square&labelColor=211A30)](registration.json)
-[![License decision pending](https://img.shields.io/badge/License-decision_pending-E8C985?style=flat-square&labelColor=211A30)](LICENSE-DECISION.md)
+[![Research available; paid enterprise license](https://img.shields.io/badge/License-research_available_%7C_paid_enterprise-E8C985?style=flat-square&labelColor=211A30)](LICENSING.md)
 
 # Crossroads State
 
@@ -23,8 +23,9 @@ a complete journal from a known initial state.
 > with public synthetic fixtures, an independent implementation check, and an
 > inspectable methods paper. This is a reusable exact-state test environment;
 > LLM performance, compression advantage and physical information transfer were
-> not evaluated. Code and paper licensing remains an
-> [owner decision](LICENSE-DECISION.md).
+> not evaluated. Noncommercial research is free under the
+> [research license](LICENSING.md). All enterprise work, including internal
+> research and evaluation, requires written permission and payment.
 
 ## The instrument
 
@@ -151,6 +152,24 @@ The runtime has no external dependencies, network calls, model APIs, telemetry,
 source downloads or credentials. Rendering the optional PDF uses ReportLab;
 the readable paper source and all computational checks do not require it.
 
+## Research and enterprise licensing
+
+The original code, paper, figures and interface assets use the
+[TASUMER MAF Research and Enterprise License 1.0](LICENSE).
+Personal study, noncommercial teaching and academic research, reproduction of
+experiments, and publication of research findings are permitted without a fee
+under its terms. Permitted copies and modifications must retain the license,
+attribution and change notices.
+
+**Any work for an enterprise requires separate written permission and payment.**
+This includes a company's internal research, benchmarking, evaluation, pilots,
+and employee or contractor work, regardless of company size or whether a
+product is released. There is no free enterprise evaluation exception.
+
+See the [plain-language guide](LICENSING.md) and [full terms](LICENSE).
+This is a source-available research release, not an unrestricted open-source
+license. Separately licensed third-party works retain their own terms.
+
 ## Within TASUMER MAF
 
 [**rhombic**](https://github.com/tasumermaf/rhombic) contains the separate
@@ -166,4 +185,4 @@ data and claims.
 
 Built by [**TASUMER MAF**](https://tasumermaf.com) ·
 [Source and tests](src/crossroads_state) · [Custody boundary](PRIVACY.md) ·
-[License decision](LICENSE-DECISION.md)
+[Research and enterprise licensing](LICENSING.md)
