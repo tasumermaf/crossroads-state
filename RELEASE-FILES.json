@@ -1,8 +1,8 @@
 {
-  "status": "RELEASE_CANDIDATE",
-  "remote_visibility": "private",
+  "status": "PUBLIC_RESEARCH_CANDIDATE",
+  "remote_visibility": "public",
   "remote_url": "https://github.com/tasumermaf/crossroads-state",
-  "public_release_published": false,
+  "public_release_published": true,
   "license_selected": true,
   "files": [
     {
@@ -146,5 +146,6 @@
       "sha256": "65b53c1739dd1389cfed47f0a3216eeb96c4b1fe4a89220f9fdb98bdc1d1195c"
     }
   ],
-  "license_identifier": "LicenseRef-TASUMER-MAF-Research-Enterprise-1.0"
+  "license_identifier": "LicenseRef-TASUMER-MAF-Research-Enterprise-1.0",
+  "github_release_created": false
 }
