@@ -1,0 +1,39 @@
+{
+  "model": "generic-four-cycle",
+  "initial": {
+    "values": [
+      "2",
+      "7",
+      "-3",
+      "5"
+    ],
+    "reader": [
+      0,
+      3
+    ],
+    "reference": 1
+  },
+  "after_relabel_plus_one": {
+    "values": [
+      "5",
+      "2",
+      "7",
+      "-3"
+    ],
+    "reader": [
+      1,
+      0
+    ],
+    "reference": 2
+  },
+  "initial_observation": [
+    "2",
+    "5"
+  ],
+  "arrival_observation": [
+    "2",
+    "5"
+  ],
+  "inverse_full_return": true,
+  "meaning": "Passive relabeling, not a change of the observed pair or a recovery of route history"
+}

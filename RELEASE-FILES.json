@@ -1,6 +1,8 @@
 {
   "status": "RELEASE_CANDIDATE",
-  "remote_published": false,
+  "remote_visibility": "private",
+  "remote_url": "https://github.com/tasumermaf/crossroads-state",
+  "public_release_published": false,
   "license_selected": false,
   "files": [
     {
@@ -25,8 +27,38 @@
     },
     {
       "path": "README.md",
-      "bytes": 5938,
-      "sha256": "b760e87acef6d884df529233c50b9e788750b017ae02dec0da0e65c1e9d63846"
+      "bytes": 8766,
+      "sha256": "a6c4160960fe8a80cd6b85b6dddf62fe0e8263a3b5601076ecf77519d813f697"
+    },
+    {
+      "path": "assets/README.md",
+      "bytes": 1711,
+      "sha256": "d53e30a254e0608d380bb573eb99be5c848e0ac24240c344b178b5b05e3f9a53"
+    },
+    {
+      "path": "assets/banner.png",
+      "bytes": 776901,
+      "sha256": "ece1efa6f0ad230baf65a6196a159dd51da6fb5601d6eee114e1aabe9b0d8216"
+    },
+    {
+      "path": "assets/banner.svg",
+      "bytes": 25554,
+      "sha256": "487fd257abbfddd69be9b4f23a0e57e40dee5bc66d073f9c418e7e10be19468b"
+    },
+    {
+      "path": "assets/state-contract.json",
+      "bytes": 573,
+      "sha256": "ceaa6666def5b4a41327b9686a0dc0c02ca3c1d21fc854a19bce7aa4151f3c49"
+    },
+    {
+      "path": "assets/state-contract.png",
+      "bytes": 144635,
+      "sha256": "43f1af03e99bd205323eeb42303f7be914f99fa876bd63281fa572ee1b49ebba"
+    },
+    {
+      "path": "assets/state-contract.svg",
+      "bytes": 8421,
+      "sha256": "3bd69cc587b7ea3d87ecc47f18df5ae4852aaeda4aed0fd41b890f549a5c3fb8"
     },
     {
       "path": "examples/journal.json",
@@ -57,6 +89,11 @@
       "path": "results/synthetic-study.json",
       "bytes": 1478,
       "sha256": "5f3642e268a9e6866b41b4d4dd537c00c0341c63debc1dfb210598fe7b34042a"
+    },
+    {
+      "path": "scripts/build_assets.py",
+      "bytes": 9796,
+      "sha256": "f1e73f5ace6235fc3c4f37c7ffe3df8b75359c5c031a172aab3484d66520cb0e"
     },
     {
       "path": "scripts/build_paper.py",

@@ -1,6 +1,17 @@
+![Crossroads State: an exact synthetic field, ordered reader and carried reference](assets/banner.png)
+
+[![Exact-state checks](https://github.com/tasumermaf/crossroads-state/actions/workflows/test.yml/badge.svg)](https://github.com/tasumermaf/crossroads-state/actions/workflows/test.yml)
+[![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-73DAB1?style=flat-square&labelColor=211A30)](pyproject.toml)
+[![Release candidate 0.1.0](https://img.shields.io/badge/Research-release_candidate_0.1.0-AC88E2?style=flat-square&labelColor=211A30)](registration.json)
+[![License decision pending](https://img.shields.io/badge/License-decision_pending-E8C985?style=flat-square&labelColor=211A30)](LICENSE-DECISION.md)
+
 # Crossroads State
 
 **Exact state, partial observation, and reversible recovery.**
+
+[**Paper PDF**](paper/exact-state-recovery.pdf) · [Methods](paper/methods.md) ·
+[Reproduce](#reproduce-without-installing-anything) ·
+[Recorded results](results/synthetic-study.json) · [State contract](#what-the-state-contains)
 
 A small, reproducible Python environment for testing whether a system recovers
 its entire state, rather than merely reproducing what a narrow observation
@@ -8,10 +19,29 @@ window happens to show. It stores exact rational values, the ordered reading
 window, and the carried reference together. It also checks recovery by replaying
 a complete journal from a known initial state.
 
-**Release candidate 0.1.0.** The code and paper are prepared for review. A license
-has not been selected; see [LICENSE-DECISION.md](LICENSE-DECISION.md). Nothing in
-this repository is a measured improvement in LLM performance, a compression
-advance, or a new claim about physical information transfer.
+> **Research status · release candidate 0.1.0.** A deterministic software study
+> with public synthetic fixtures, an independent implementation check, and an
+> inspectable methods paper. This is a reusable exact-state test environment;
+> LLM performance, compression advantage and physical information transfer were
+> not evaluated. Code and paper licensing remains an
+> [owner decision](LICENSE-DECISION.md).
+
+## The instrument
+
+The same reading can appear twice while the underlying state has changed.
+Crossroads State keeps the full field, the order in which it is read, and its
+reference address together, so **an exact return can be checked rather than
+inferred from appearances**.
+
+The figure below uses four addresses to make the rule visible. The complete
+synthetic study uses 81. Green numbers show the reader's order; gold marks the
+carried reference. Relabel every component together and the observed pair stays
+the same. Apply the inverse and the full state returns.
+
+![Four-address passive relabeling: values, reader and reference move together; the observed pair remains 2,5; inverse minus one restores the full state](assets/state-contract.png)
+
+[Inspect the figure's exact data](assets/state-contract.json) ·
+[Regenerate the original vector artwork](scripts/build_assets.py)
 
 ## What is demonstrated
 
@@ -55,8 +85,9 @@ The first command runs 17 focused tests. The second recomputes every registered
 case and compares the complete machine-readable result with the committed file.
 To regenerate that file deliberately, omit `--check`.
 
-The CI workflow runs both commands. It is supplied here but cannot be described
-as a passing hosted CI run until the repository is hosted and the workflow runs.
+The [CI workflow](https://github.com/tasumermaf/crossroads-state/actions/workflows/test.yml)
+runs both commands. Its live status is reported by the badge above; the committed
+study records the reproducible result independently of the hosting service.
 
 ## Try a checkpoint and return
 
@@ -119,3 +150,20 @@ to execute or verify it.
 The runtime has no external dependencies, network calls, model APIs, telemetry,
 source downloads or credentials. Rendering the optional PDF uses ReportLab;
 the readable paper source and all computational checks do not require it.
+
+## Within TASUMER MAF
+
+[**rhombic**](https://github.com/tasumermaf/rhombic) contains the separate
+[XR-001: *Typed State Beats Prose* study](https://github.com/tasumermaf/rhombic#xr-001-typed-state-beats-prose-july-2026),
+an empirical investigation of numeric corruption during agent context
+compaction. Crossroads State supplies a different kind of artifact: an exact,
+deterministic state contract and a synthetic environment in which recovery can
+be checked. The 512 sequences here are software tests, **not additional LLM
+trials or a reproduction of XR-001**. The two studies retain their own methods,
+data and claims.
+
+---
+
+Built by [**TASUMER MAF**](https://tasumermaf.com) ·
+[Source and tests](src/crossroads_state) · [Custody boundary](PRIVACY.md) ·
+[License decision](LICENSE-DECISION.md)
