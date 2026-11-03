@@ -29,5 +29,5 @@ python3 scripts/build_assets.py
 The committed PNGs were rendered from the corresponding SVGs in headless
 Chromium at device scale 2. They can be regenerated with an SVG renderer of the
 reader's choice. Minor font rendering differences do not alter the diagram's
-data or operation. Asset licensing follows the owner's pending decision in
-`LICENSE-DECISION.md`.
+data or operation. Asset licensing follows the [TASUMER MAF Research and Enterprise License 1.0](../LICENSE).
+All enterprise work requires written permission and payment; see [LICENSING.md](../LICENSING.md).

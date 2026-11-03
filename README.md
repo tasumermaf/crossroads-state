@@ -13,6 +13,10 @@
 [Reproduce](#reproduce-without-installing-anything) ·
 [Recorded results](results/synthetic-study.json) · [State contract](#what-the-state-contains)
 
+[**Interactive laboratory**](https://huggingface.co/spaces/timotheospaul/crossroads-laboratory) ·
+[Illuminated Geometry](https://timotheospaul-crossroads-laboratory.static.hf.space/geometry--journey.html) ·
+[**Book of Crossroads film — Revised Edition**](https://www.youtube.com/watch?v=ZIqhh20DGCE)
+
 A small, reproducible Python environment for testing whether a system recovers
 its entire state, rather than merely reproducing what a narrow observation
 window happens to show. It stores exact rational values, the ordered reading
@@ -171,6 +175,20 @@ This is a source-available research release, not an unrestricted open-source
 license. Separately licensed third-party works retain their own terms.
 
 ## Within TASUMER MAF
+
+The [Crossroads Laboratory](https://huggingface.co/spaces/timotheospaul/crossroads-laboratory)
+is the companion browser environment: explore numerical families, instructions,
+return checks and Illuminated Geometry. Its November 2 geometry update includes
+the red thread, packing and mirror lock, reference handover and memory return,
+with a separate three-minute study player. Visual staging and numerical operations
+are labelled separately. The library in **this repository** continues to use only
+the public synthetic fixtures documented above; its test results are unchanged.
+
+The [film](https://www.youtube.com/watch?v=ZIqhh20DGCE) presents the work as a
+visual journey. The [initiate study environment](https://study.tasumermaf.com/)
+contains the private courses and books and requires access. The public laboratory
+does not display the reserved source square or its ordered extraction key.
+
 
 [**rhombic**](https://github.com/tasumermaf/rhombic) contains the separate
 [XR-001: *Typed State Beats Prose* study](https://github.com/tasumermaf/rhombic#xr-001-typed-state-beats-prose-july-2026),
