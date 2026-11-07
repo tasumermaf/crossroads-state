@@ -58,6 +58,24 @@ Use, including enterprise-sponsored or enterprise-directed work.
 Research funded or commissioned for an Enterprise's business purposes is
 Enterprise Use even when an academic institution performs it.
 
+3A. Limited Hiring and Engagement Review
+
+Notwithstanding the Enterprise Use and Commercial Use exclusions in section 2, the separate-license and payment requirements in section 4, and the purpose and recipient-license limitations in section 5, the Licensor grants a worldwide, nonexclusive, royalty-free copyright license for the limited review described in this section. No separate written license or licensing fee is required for that review.
+
+Prospective employers or clients, and individuals directly participating in their hiring or engagement decision, may review Material publicly released by the Licensor under this license solely to decide whether to employ Timothy Paul Bielec or engage Timothy Paul Bielec or TASUMER MAF to provide professional services. They may inspect the published Material, discuss it within that review group, and prepare internal assessments for that decision. This permission does not authorize evaluation of the Material for adoption, integration, licensing, or operational use by the prospective employer or client.
+
+For this review, reviewers may make necessary local copies of the public release and run only its unmodified, publicly supplied examples, using their supplied sample inputs, on devices under their control. Temporary build and runtime files necessary to run those examples are permitted. This exception does not authorize source modification, use with reviewers’ own datasets, operation as a shared or hosted service, or any other execution. Reviewers may also use demonstrations hosted by the Licensor and expressly made available for hiring or engagement review.
+
+Copies permitted by this section may be shared only among individuals directly participating in the same review, with this license and applicable copyright, attribution, and third-party notices retained. Each participant receives permission directly from the Licensor under these terms. No public redistribution or wider internal distribution is authorized by this exception. When the review ends, copies made solely under this exception must be deleted. A brief internal record of the assessment or decision may be retained if it contains no source code or substantial reproduction of the Material.
+
+This exception grants no permission for enterprise or commercial research and development, product evaluation, independent benchmarking, employee or contractor training, AI or machine-learning training, fine-tuning, model evaluation, dataset construction, modification, integration, deployment, production, or incorporation into products, services, or client deliverables. It does not authorize using a hiring or engagement review as a substitute for obtaining a license for those activities.
+
+Material, substantial excerpts, and review copies may not be uploaded, pasted, submitted, or otherwise provided to external AI tools, coding assistants, model providers, or AI analysis services under this exception without the Licensor’s prior written approval of the specific service and use. Such approval does not, by itself, authorize training or any other activity outside this section’s review purpose.
+
+No ownership, patent, trademark, confidential-source, reserved-corpus, or other rights beyond the copyright permission expressly stated here are granted. The Licensor is not required to disclose private source code, unpublished material, proprietary information, or other material omitted from the public release. This section creates no employment, services, assignment, or additional licensing commitment.
+
+The restrictions in this section apply only to permission granted by this section. They do not reduce rights independently available under section 2, a separate agreement, applicable third-party licenses, or applicable law, including the rights preserved in section 6. All other applicable provisions of this license remain in effect.
+
 4. SEPARATE WRITTEN PERMISSION AND PAYMENT
 
 This license grants no Enterprise Use or Commercial Use rights. Before such
