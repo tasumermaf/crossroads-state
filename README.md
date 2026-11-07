@@ -28,8 +28,9 @@ a complete journal from a known initial state.
 > inspectable methods paper. This is a reusable exact-state test environment;
 > LLM performance, compression advantage and physical information transfer were
 > not evaluated. Noncommercial research is free under the
-> [research license](LICENSING.md). All enterprise work, including internal
-> research and evaluation, requires written permission and payment.
+> [research license](LICENSING.md). Limited hiring and engagement review is
+> also free under section 3A. Other enterprise work, including internal
+> research and product evaluation, requires written permission and payment.
 
 ## The instrument
 
@@ -165,10 +166,21 @@ experiments, and publication of research findings are permitted without a fee
 under its terms. Permitted copies and modifications must retain the license,
 attribution and change notices.
 
-**Any work for an enterprise requires separate written permission and payment.**
-This includes a company's internal research, benchmarking, evaluation, pilots,
-and employee or contractor work, regardless of company size or whether a
-product is released. There is no free enterprise evaluation exception.
+**Limited hiring and engagement review is free under section 3A of the license.**
+Prospective employers or clients may review publicly released Material solely
+to decide whether to employ Timothy Paul Bielec or engage Timothy Paul Bielec
+or TASUMER MAF for professional services. Within that review, reviewers may
+make necessary local copies and run only unmodified, publicly supplied examples
+with their supplied sample inputs on devices under their control. All section
+3A conditions apply, including limits on sharing and retention. External AI
+submission requires the Licensor's prior written approval of the specific
+service and use. This exception does not permit enterprise research, product
+evaluation, business adoption, or training.
+
+**Other enterprise or commercial use requires separate written permission and payment.**
+This includes a company's internal research, benchmarking, product evaluation,
+pilots, and employee or contractor work outside the limited section 3A review,
+regardless of company size or whether a product is released.
 
 See the [plain-language guide](LICENSING.md) and [full terms](LICENSE).
 This is a source-available research release, not an unrestricted open-source
