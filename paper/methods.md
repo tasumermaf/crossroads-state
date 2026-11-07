@@ -6,8 +6,15 @@ TASUMER MAF | Technical report 0.1.0 | 25 October 2026
 
 Release candidate; not externally peer-reviewed. Licensed under the TASUMER MAF
 Research and Enterprise License 1.0. Noncommercial research is free under its
-terms; any enterprise work, including internal research and evaluation,
-requires separate written permission and payment. See the repository LICENSE.
+terms. Section 3A also permits limited review of publicly released Material
+solely to decide whether to employ Timothy Paul Bielec or engage Timothy Paul
+Bielec or TASUMER MAF for professional services, without a separate license or
+fee. Within that review, reviewers may locally run only unmodified, publicly
+supplied examples with their supplied sample inputs, subject to all section
+3A conditions. Other enterprise or commercial use, including internal research,
+benchmarking and product evaluation, requires separate written permission and
+payment. The full repository LICENSE governs; see section 3A for the review's
+sharing, retention, external AI submission and other limits.
 
 ## Abstract
 
